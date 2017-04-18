@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SWTextAndImageButton'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'button 的小封装'
   s.description      = <<-DESC
 button 的小封装,支持xib,使用简单
