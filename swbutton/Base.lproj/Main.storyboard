@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,37 +21,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzB-7E-chu" customClass="SWTextAndImageButton">
-                                <rect key="frame" x="85" y="198" width="222" height="171"/>
-                                <color key="backgroundColor" red="0.99986523390000004" green="0.63431078200000002" blue="0.2405056423611111" alpha="0.2303082191780822" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button" image="00.png">
-                                    <color key="titleColor" red="1" green="0.32286241319999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKR-DA-3DA" customClass="SWTextAndImageButton">
+                                <rect key="frame" x="119.5" y="281.5" width="137" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="8uf-yA-KWK"/>
+                                    <constraint firstAttribute="width" constant="137" id="ph2-sc-kOq"/>
+                                </constraints>
+                                <state key="normal" title="哈哈" image="00.png">
+                                    <color key="titleColor" red="1" green="0.63529411759999999" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
-                                        <real key="value" value="16"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rectTypeInt">
-                                        <integer key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="contentDistance">
-                                        <real key="value" value="0.0"/>
+                                        <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="DzB-7E-chu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="69" id="0Ye-Ia-ukE"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DzB-7E-chu" secondAttribute="bottom" constant="298" id="6HJ-BZ-ELq"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="DzB-7E-chu" secondAttribute="trailing" constant="52" id="uBF-bq-ECT"/>
-                            <constraint firstItem="DzB-7E-chu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="178" id="vUt-xQ-cKx"/>
+                            <constraint firstItem="qKR-DA-3DA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7oR-xq-1f5"/>
+                            <constraint firstItem="qKR-DA-3DA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GT0-Nd-owS"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="NPS-SH-TkT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="114" y="-49"/>
+            <point key="canvasLocation" x="-271.19999999999999" y="-99.400299850074973"/>
         </scene>
     </scenes>
     <resources>

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+
 #import "SWTextAndImageButton.h"
 @interface ViewController ()
 
@@ -50,7 +51,50 @@
     [self.view addSubview:btn];
     
     
+    
+    
+    UISwipeGestureRecognizer * sw1 = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(changeColor:)];
+    sw1.direction =UISwipeGestureRecognizerDirectionRight;
+    [self.view addGestureRecognizer:sw1];
+    
+    
+    UISwipeGestureRecognizer * sw2 = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(changeColor:)];
+    sw2.direction =UISwipeGestureRecognizerDirectionLeft;
+    [self.view addGestureRecognizer:sw2];
+    
+    UISwipeGestureRecognizer * sw3 = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(changeColor:)];
+    sw3.direction =UISwipeGestureRecognizerDirectionUp;
+    [self.view addGestureRecognizer:sw3];
+    
+    
+    UISwipeGestureRecognizer * sw4 = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(changeColor:)];
+    sw4.direction =UISwipeGestureRecognizerDirectionDown;
+    [self.view addGestureRecognizer:sw4];
+    
+    
+    
+    
+    
 }
+-(void)changeColor:(UISwipeGestureRecognizer *)sw{
+    
+    if (sw.direction == UISwipeGestureRecognizerDirectionRight) {
+        
+    }
+    if (sw.direction == UISwipeGestureRecognizerDirectionLeft) {
+        
+    }
+    if (sw.direction == UISwipeGestureRecognizerDirectionUp) {
+        
+    }
+    if (sw.direction == UISwipeGestureRecognizerDirectionDown) {
+        
+    }
+    
+    
+    
+}
+
 
 
 @end
