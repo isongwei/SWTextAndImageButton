@@ -8,5 +8,4 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/isongwei/SWTextAndImageButton.git', :tag => s.version}
     s.source_files = 'SWTextAndImageButton/**/*.{h,m}'
-    s.requires_arc = true
 end
