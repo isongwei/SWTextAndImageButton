@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9A0B0391EA5A3B000F8EB84 /* 00.png in Resources */ = {isa = PBXBuildFile; fileRef = F9A0B0381EA5A3B000F8EB84 /* 00.png */; };
 		F9C5EEA21EA4C3CB00515E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C5EEA11EA4C3CB00515E43 /* main.m */; };
 		F9C5EEA51EA4C3CB00515E43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C5EEA41EA4C3CB00515E43 /* AppDelegate.m */; };
 		F9C5EEA81EA4C3CB00515E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C5EEA71EA4C3CB00515E43 /* ViewController.m */; };
 		F9C5EEAB1EA4C3CB00515E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C5EEA91EA4C3CB00515E43 /* Main.storyboard */; };
 		F9C5EEAD1EA4C3CB00515E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C5EEAC1EA4C3CB00515E43 /* Assets.xcassets */; };
 		F9C5EEB01EA4C3CB00515E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C5EEAE1EA4C3CB00515E43 /* LaunchScreen.storyboard */; };
+		F9C5EEB91EA4C49400515E43 /* SWTextAndImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C5EEB81EA4C49400515E43 /* SWTextAndImageButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9A0B0381EA5A3B000F8EB84 /* 00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 00.png; sourceTree = "<group>"; };
 		F9C5EE9D1EA4C3CB00515E43 /* swbutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swbutton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C5EEA11EA4C3CB00515E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9C5EEA31EA4C3CB00515E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,8 @@
 		F9C5EEAC1EA4C3CB00515E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9C5EEAF1EA4C3CB00515E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9C5EEB11EA4C3CB00515E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C5EEB71EA4C49400515E43 /* SWTextAndImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTextAndImageButton.h; sourceTree = "<group>"; };
+		F9C5EEB81EA4C49400515E43 /* SWTextAndImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTextAndImageButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +63,14 @@
 		F9C5EE9F1EA4C3CB00515E43 /* swbutton */ = {
 			isa = PBXGroup;
 			children = (
+				F9A0B0381EA5A3B000F8EB84 /* 00.png */,
 				F9C5EEA31EA4C3CB00515E43 /* AppDelegate.h */,
 				F9C5EEA41EA4C3CB00515E43 /* AppDelegate.m */,
 				F9C5EEA61EA4C3CB00515E43 /* ViewController.h */,
 				F9C5EEA71EA4C3CB00515E43 /* ViewController.m */,
+				F9C5EEB71EA4C49400515E43 /* SWTextAndImageButton.h */,
+				F9C5EEB81EA4C49400515E43 /* SWTextAndImageButton.m */,
 				F9C5EEA91EA4C3CB00515E43 /* Main.storyboard */,
-				F9C5EEAC1EA4C3CB00515E43 /* Assets.xcassets */,
-				F9C5EEAE1EA4C3CB00515E43 /* LaunchScreen.storyboard */,
-				F9C5EEB11EA4C3CB00515E43 /* Info.plist */,
 				F9C5EEA01EA4C3CB00515E43 /* Supporting Files */,
 			);
 			path = swbutton;
@@ -74,6 +79,9 @@
 		F9C5EEA01EA4C3CB00515E43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F9C5EEAC1EA4C3CB00515E43 /* Assets.xcassets */,
+				F9C5EEAE1EA4C3CB00515E43 /* LaunchScreen.storyboard */,
+				F9C5EEB11EA4C3CB00515E43 /* Info.plist */,
 				F9C5EEA11EA4C3CB00515E43 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +149,7 @@
 				F9C5EEB01EA4C3CB00515E43 /* LaunchScreen.storyboard in Resources */,
 				F9C5EEAD1EA4C3CB00515E43 /* Assets.xcassets in Resources */,
 				F9C5EEAB1EA4C3CB00515E43 /* Main.storyboard in Resources */,
+				F9A0B0391EA5A3B000F8EB84 /* 00.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 			files = (
 				F9C5EEA81EA4C3CB00515E43 /* ViewController.m in Sources */,
 				F9C5EEA51EA4C3CB00515E43 /* AppDelegate.m in Sources */,
+				F9C5EEB91EA4C49400515E43 /* SWTextAndImageButton.m in Sources */,
 				F9C5EEA21EA4C3CB00515E43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +322,7 @@
 				F9C5EEB61EA4C3CB00515E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
