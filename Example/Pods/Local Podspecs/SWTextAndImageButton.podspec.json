@@ -1,0 +1,22 @@
+{
+  "name": "SWTextAndImageButton",
+  "version": "0.1.0",
+  "summary": "A short description of SWTextAndImageButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/i_songwei@163.com/SWTextAndImageButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "i_songwei@163.com": "i_songwei@163.com"
+  },
+  "source": {
+    "git": "https://github.com/i_songwei@163.com/SWTextAndImageButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SWTextAndImageButton/Classes/**/*"
+}

@@ -1,14 +1,16 @@
+
 Pod::Spec.new do |s|
-    s.name         = 'SWTextAndImageButton'
-    s.version      = '0.0.1'
-    s.summary      = '4种模式设置图片文字方向位置'
-    s.homepage     = 'https://github.com/isongwei/SWTextAndImageButton'
-    s.description      = <<-DESC
-随便自定义Button,4种模式设置图片文字方向位置
+  s.name             = 'SWTextAndImageButton'
+  s.version          = '0.1.0'
+  s.summary          = 'A short description of SWTextAndImageButton.'
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
                        DESC
-    s.license      = 'MIT'
-    s.author           = { 'i_songwei@163.com' => 'mail.com' }
-    s.ios.deployment_target = '6.0'
-    s.source       = {:git => 'https://github.com/isongwei/SWTextAndImageButton.git', :tag => s.version}
-    s.source_files = 'SWTextAndImageButton/**/*.{h,m}'
+  s.homepage         = 'https://github.com/isongwei/SWTextAndImageButton'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'i_songwei@163.com' => 'i_songwei@163.com' }
+  s.source           = { :git => 'https://github.com/isongwei/SWTextAndImageButton.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '6.0'
+  s.source_files = 'SWTextAndImageButton/Classes/**/*'
+
 end

@@ -1,0 +1,16 @@
+PODS:
+  - SWTextAndImageButton (0.1.0)
+
+DEPENDENCIES:
+  - SWTextAndImageButton (from `../`)
+
+EXTERNAL SOURCES:
+  SWTextAndImageButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SWTextAndImageButton: edc769b92c17093090a1ca5e945908f97ce3f893
+
+PODFILE CHECKSUM: fccdfdb5c002c861272ee0266c38f6d4c4e23de4
+
+COCOAPODS: 1.2.1

@@ -1,6 +1,0 @@
-framework module Pods_swbutton {
-  umbrella header "Pods-swbutton-umbrella.h"
-
-  export *
-  module * { export * }
-}

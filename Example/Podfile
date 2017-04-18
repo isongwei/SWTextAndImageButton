@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SWTextAndImageButton_Example' do
+  pod 'SWTextAndImageButton', :path => '../'
+
+  target 'SWTextAndImageButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

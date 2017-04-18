@@ -1,7 +1,29 @@
 # SWTextAndImageButton
 
-简单使用的button
+[![CI Status](http://img.shields.io/travis/i_songwei@163.com/SWTextAndImageButton.svg?style=flat)](https://travis-ci.org/i_songwei@163.com/SWTextAndImageButton)
+[![Version](https://img.shields.io/cocoapods/v/SWTextAndImageButton.svg?style=flat)](http://cocoapods.org/pods/SWTextAndImageButton)
+[![License](https://img.shields.io/cocoapods/l/SWTextAndImageButton.svg?style=flat)](http://cocoapods.org/pods/SWTextAndImageButton)
+[![Platform](https://img.shields.io/cocoapods/p/SWTextAndImageButton.svg?style=flat)](http://cocoapods.org/pods/SWTextAndImageButton)
 
-4种模式设置图片文字方向位置
+## Example
 
-支持xib
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+SWTextAndImageButton is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "SWTextAndImageButton"
+```
+
+## Author
+
+i_songwei@163.com, i_songwei@163.com
+
+## License
+
+SWTextAndImageButton is available under the MIT license. See the LICENSE file for more info.
