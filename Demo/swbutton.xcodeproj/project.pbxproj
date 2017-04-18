@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F69976B110BDFBFF6F39893 /* Pods_swbutton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC63AD4FA378E583E6D78126 /* Pods_swbutton.framework */; };
 		F9A0B0391EA5A3B000F8EB84 /* 00.png in Resources */ = {isa = PBXBuildFile; fileRef = F9A0B0381EA5A3B000F8EB84 /* 00.png */; };
 		F9A0B03D1EA5E47900F8EB84 /* WechatIMG331.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F9A0B03C1EA5E47900F8EB84 /* WechatIMG331.jpeg */; };
 		F9C5EEA21EA4C3CB00515E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C5EEA11EA4C3CB00515E43 /* main.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		864819FC6C3E5BDB86E8D08D /* Pods-swbutton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swbutton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swbutton/Pods-swbutton.debug.xcconfig"; sourceTree = "<group>"; };
+		F84AE098E95ECB5405FAC382 /* Pods-swbutton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swbutton.release.xcconfig"; path = "Pods/Target Support Files/Pods-swbutton/Pods-swbutton.release.xcconfig"; sourceTree = "<group>"; };
 		F9A0B0381EA5A3B000F8EB84 /* 00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 00.png; sourceTree = "<group>"; };
 		F9A0B03C1EA5E47900F8EB84 /* WechatIMG331.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG331.jpeg; sourceTree = "<group>"; };
 		F9C5EE9D1EA4C3CB00515E43 /* swbutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swbutton.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +36,7 @@
 		F9C5EEB11EA4C3CB00515E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9C5EEB71EA4C49400515E43 /* SWTextAndImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTextAndImageButton.h; sourceTree = "<group>"; };
 		F9C5EEB81EA4C49400515E43 /* SWTextAndImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTextAndImageButton.m; sourceTree = "<group>"; };
+		FC63AD4FA378E583E6D78126 /* Pods_swbutton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swbutton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F69976B110BDFBFF6F39893 /* Pods_swbutton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D4BDFD237A6C180409D6B4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				864819FC6C3E5BDB86E8D08D /* Pods-swbutton.debug.xcconfig */,
+				F84AE098E95ECB5405FAC382 /* Pods-swbutton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88014867FF327A9DCD39010D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC63AD4FA378E583E6D78126 /* Pods_swbutton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9C5EE941EA4C3CB00515E43 = {
 			isa = PBXGroup;
 			children = (
 				F9C5EE9F1EA4C3CB00515E43 /* swbutton */,
 				F9C5EE9E1EA4C3CB00515E43 /* Products */,
+				1D4BDFD237A6C180409D6B4E /* Pods */,
+				88014867FF327A9DCD39010D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9C5EEB41EA4C3CB00515E43 /* Build configuration list for PBXNativeTarget "swbutton" */;
 			buildPhases = (
+				FE18500EEB8E3503674C375F /* [CP] Check Pods Manifest.lock */,
 				F9C5EE991EA4C3CB00515E43 /* Sources */,
 				F9C5EE9A1EA4C3CB00515E43 /* Frameworks */,
 				F9C5EE9B1EA4C3CB00515E43 /* Resources */,
+				174FE346D2ED7C9334105581 /* [CP] Embed Pods Frameworks */,
+				A3E260C6A2D323FC64C94D00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +185,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174FE346D2ED7C9334105581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swbutton/Pods-swbutton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E260C6A2D323FC64C94D00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swbutton/Pods-swbutton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE18500EEB8E3503674C375F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9C5EE991EA4C3CB00515E43 /* Sources */ = {
@@ -285,6 +360,7 @@
 		};
 		F9C5EEB51EA4C3CB00515E43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864819FC6C3E5BDB86E8D08D /* Pods-swbutton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MHN2XFC72U;
@@ -297,6 +373,7 @@
 		};
 		F9C5EEB61EA4C3CB00515E43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84AE098E95ECB5405FAC382 /* Pods-swbutton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MHN2XFC72U;

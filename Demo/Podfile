@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'swbutton’ do
+  pod 'SWTextAndImageButton', :path => '../'
+end

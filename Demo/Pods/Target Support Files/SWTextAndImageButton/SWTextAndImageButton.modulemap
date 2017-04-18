@@ -1,0 +1,6 @@
+framework module SWTextAndImageButton {
+  umbrella header "SWTextAndImageButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
