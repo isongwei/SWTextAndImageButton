@@ -22,6 +22,15 @@ pod 'SWTextAndImageButton', '~>0.0.3'
 
 ## Use
 
+```
+code
+SWTextAndImageButton * btn
+btn.rectType =SWButtonTypeTextLeft;  //方向
+btn.contentDistance = 10; // 文字图片间的距离
+btn.padding = 20; // 边距
+```
+
+xib
 <img src="./test.gif" title="" width="300">
 
 ## Author
