@@ -1,6 +1,6 @@
 //
 //  SWTextAndImageButton.m
-//  swbutton
+//  
 //
 //  Created by iSongWei on 2017/4/17.
 //  Copyright © 2017年 iSong. All rights reserved.
