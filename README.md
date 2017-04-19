@@ -31,7 +31,7 @@ btn.padding = 20; // 边距
 ```
 
 xib
-<img src="./test.gif" title="" width="300">
+<img src="./test.gif" title="" width="700">
 
 ## Author
 
