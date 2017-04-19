@@ -1,5 +1,5 @@
 PODS:
-  - SWTextAndImageButton (0.1.0)
+  - SWTextAndImageButton (0.0.3)
 
 DEPENDENCIES:
   - SWTextAndImageButton (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SWTextAndImageButton: edc769b92c17093090a1ca5e945908f97ce3f893
+  SWTextAndImageButton: 848a83e07e23ee4a695efdda56234162b4265034
 
 PODFILE CHECKSUM: fccdfdb5c002c861272ee0266c38f6d4c4e23de4
 

@@ -1,22 +1,19 @@
 {
   "name": "SWTextAndImageButton",
-  "version": "0.1.0",
-  "summary": "A short description of SWTextAndImageButton.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/i_songwei@163.com/SWTextAndImageButton",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "0.0.3",
+  "summary": "button 的文字图片方向小封装",
+  "description": "button 的小封装,支持xib,使用简单",
+  "homepage": "https://github.com/isongwei/SWTextAndImageButton",
+  "license": "MIT",
   "authors": {
-    "i_songwei@163.com": "i_songwei@163.com"
+    "isongwei": "isongwei1992@gmail.com"
   },
   "source": {
-    "git": "https://github.com/i_songwei@163.com/SWTextAndImageButton.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/isongwei/SWTextAndImageButton.git",
+    "tag": "0.0.3"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "6.0"
   },
-  "source_files": "SWTextAndImageButton/Classes/**/*"
+  "source_files": "SWTextAndImageButton/**/*"
 }

@@ -24,8 +24,6 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8E97B4ED4658B16F4D810960 /* Pods_SWTextAndImageButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F1EE64409CE54856DD74AB /* Pods_SWTextAndImageButton_Example.framework */; };
 		D27969496F3BE070FB94034D /* Pods_SWTextAndImageButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF90D295040079D4A1D322E0 /* Pods_SWTextAndImageButton_Tests.framework */; };
-		F940B2A01EA624AD00001DF1 /* SWTextAndImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F940B29F1EA624AD00001DF1 /* SWTextAndImageButton.m */; };
-		F940B2A11EA624AD00001DF1 /* SWTextAndImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F940B29F1EA624AD00001DF1 /* SWTextAndImageButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +67,6 @@
 		C9F1EE64409CE54856DD74AB /* Pods_SWTextAndImageButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWTextAndImageButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACA4F1858863341E15F3A2D /* Pods-SWTextAndImageButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTextAndImageButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWTextAndImageButton_Example/Pods-SWTextAndImageButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CF90D295040079D4A1D322E0 /* Pods_SWTextAndImageButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWTextAndImageButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F940B29E1EA624AD00001DF1 /* SWTextAndImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTextAndImageButton.h; sourceTree = "<group>"; };
-		F940B29F1EA624AD00001DF1 /* SWTextAndImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTextAndImageButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,8 +132,6 @@
 		6003F593195388D20070C39A /* Example for SWTextAndImageButton */ = {
 			isa = PBXGroup;
 			children = (
-				F940B29E1EA624AD00001DF1 /* SWTextAndImageButton.h */,
-				F940B29F1EA624AD00001DF1 /* SWTextAndImageButton.m */,
 				6003F59C195388D20070C39A /* ZSWAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZSWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -402,7 +396,6 @@
 			files = (
 				6003F59E195388D20070C39A /* ZSWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZSWViewController.m in Sources */,
-				F940B2A01EA624AD00001DF1 /* SWTextAndImageButton.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,7 +404,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F940B2A11EA624AD00001DF1 /* SWTextAndImageButton.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
