@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod 'SWTextAndImageButton', '~>0.0.3'
 ```
 
+## Use
+
+<img src="./test.gif" title="" width="300">
+
 ## Author
 
 i_songwei@163.com, i_songwei@163.com
