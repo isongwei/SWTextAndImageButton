@@ -10,13 +10,8 @@
 IB_DESIGNABLE
 
 @implementation SWTextAndImageButton
-
-
-
 #pragma mark - ===============upDataFrame===============
 -(void)upDateFrame{
-    
-
     switch (_rectType) {
         case SWButtonTypeNone:
         {
