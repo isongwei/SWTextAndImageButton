@@ -17,7 +17,7 @@ SWTextAndImageButton is available through [CocoaPods](http://cocoapods.org). To 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SWTextAndImageButton', '~>0.0.2'
+pod 'SWTextAndImageButton', '~>0.0.3'
 ```
 
 ## Author
