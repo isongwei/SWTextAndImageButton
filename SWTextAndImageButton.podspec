@@ -11,6 +11,6 @@ button 的小封装,支持xib,使用简单
   s.author           = { 'i_songwei@163.com' => 'i_songwei@163.com' }
   s.source           = { :git => 'https://github.com/isongwei/SWTextAndImageButton.git', :tag => s.version }
   s.ios.deployment_target = '6.0'
-  s.source_files = 'SWTextAndImageButton/Classes/**/*'
+  s.source_files = 'SWTextAndImageButton/**/*'
 
 end
