@@ -21,12 +21,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYt-8l-jhp" customClass="SWTextAndImageButton">
-                                <rect key="frame" x="128.5" y="280.5" width="119" height="107"/>
-                                <color key="backgroundColor" red="0.1569824219" green="1" blue="1" alpha="0.41644370719178081" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiB-j9-FAk" customClass="SWTextAndImageButton">
+                                <rect key="frame" x="141" y="287.5" width="94" height="92"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="119" id="NfT-2o-WPA"/>
-                                    <constraint firstAttribute="height" constant="107" id="vUb-Jl-ZrG"/>
+                                    <constraint firstAttribute="height" constant="92" id="5Hq-JQ-MYt"/>
+                                    <constraint firstAttribute="width" constant="94" id="QVq-Rf-fPi"/>
                                 </constraints>
                                 <state key="normal" title="测试" image="0">
                                     <color key="titleColor" red="1" green="0.63529411759999999" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -36,24 +35,24 @@
                                         <integer key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="padding">
-                                        <real key="value" value="18"/>
+                                        <real key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="contentDistance">
-                                        <real key="value" value="11"/>
+                                        <real key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="NYt-8l-jhp" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="2VK-EW-lSq"/>
-                            <constraint firstItem="NYt-8l-jhp" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="uS4-J7-7gj"/>
+                            <constraint firstItem="XiB-j9-FAk" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="ERx-iB-1Uk"/>
+                            <constraint firstItem="XiB-j9-FAk" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="mj5-LR-w2E"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+            <point key="canvasLocation" x="487.19999999999999" y="416.94152923538235"/>
         </scene>
     </scenes>
     <resources>
