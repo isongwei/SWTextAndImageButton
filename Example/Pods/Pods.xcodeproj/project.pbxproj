@@ -10,14 +10,14 @@
 		0C7EBDFADCAC12334EF232A1385B683D /* Pods-SWTextAndImageButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467375DBB85B3EA239935569E5B14B3 /* Pods-SWTextAndImageButton_Tests-dummy.m */; };
 		1B00551556E090CC773FE959DA9B8F1F /* Pods-SWTextAndImageButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 662709084D145B8404D3596C0D926C3A /* Pods-SWTextAndImageButton_Example-dummy.m */; };
 		37924BFEF8DE55D0D911F87B27F101ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7B29E77E24C7FEF0C1EE6EE2A359365E /* SWTextAndImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AE0BBB54FF1B79DF965BA5B56434CBD8 /* SWTextAndImageButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C2DC9CCC2EE54C21B0A1A6E69A6AB44 /* SWTextAndImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F90A87FC61A87530ECF256B3F0575108 /* SWTextAndImageButton.m */; };
+		792DD04BBC9A73D5744EA1F59C59C320 /* SWTextAndImageButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE01ED09124531C394476AFA9AE6E5E /* SWTextAndImageButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		878D45558F35CF61CDC8AB35F81244DF /* Pods-SWTextAndImageButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6558D90D56222D995D56A46F3A8D37CB /* Pods-SWTextAndImageButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D31E29EF123D864B14DE3FBF7CB8CA4 /* SWTextAndImageButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0416E9EFC3278BEC76B17BB159E50A97 /* SWTextAndImageButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		901B87131064CBEA930225458BF9D1E6 /* SWTextAndImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B03C685F9D1F8283006784C38DC88D4E /* SWTextAndImageButton.m */; };
-		98A274D01634B9C59931B3A726CEF048 /* SWTextAndImageButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 898AEFCEA9E0BA81CCAE51BE4EE8932D /* SWTextAndImageButton-dummy.m */; };
 		98B1E8F041F502877D630E326FA00158 /* Pods-SWTextAndImageButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9993A1E14B12AFC195D11174CC51AC1 /* Pods-SWTextAndImageButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1F9D8F57FB7079A490DF6E226824881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A5BAFE13B7739800626876548D570DE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B423ECA78B52FEC40F1BEC51EC14C6FD /* SWTextAndImageButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27982BD0B11BB25E3D6DBDB91347C33A /* SWTextAndImageButton-dummy.m */; };
+		F8C3E0004C74ECBD2945CE432E392633 /* SWTextAndImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD330F319211A2B914D3C3D47BFB065 /* SWTextAndImageButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,39 +31,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CD6DC6734157832A6A4210DF88AC7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0416E9EFC3278BEC76B17BB159E50A97 /* SWTextAndImageButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTextAndImageButton-umbrella.h"; sourceTree = "<group>"; };
 		113D99DF3E0B719477E808E0EE1E89B4 /* SWTextAndImageButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWTextAndImageButton.framework; path = SWTextAndImageButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C78EC3BEC090B24A1760E9412290FED /* Pods-SWTextAndImageButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWTextAndImageButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		21AB471FEE57B17151785E8A6A29B3C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27982BD0B11BB25E3D6DBDB91347C33A /* SWTextAndImageButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTextAndImageButton-dummy.m"; sourceTree = "<group>"; };
 		2DB5062E4E5A2B6DC329D5853D703695 /* Pods-SWTextAndImageButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWTextAndImageButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2F96AB149D5F34B031E5A9B001C76380 /* SWTextAndImageButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWTextAndImageButton.modulemap; sourceTree = "<group>"; };
+		2FD330F319211A2B914D3C3D47BFB065 /* SWTextAndImageButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTextAndImageButton.h; path = SWTextAndImageButton/SWTextAndImageButton.h; sourceTree = "<group>"; };
+		3AEEF179E672FB85C803F73121474F56 /* SWTextAndImageButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTextAndImageButton-prefix.pch"; sourceTree = "<group>"; };
 		4D248CD50142DA0637254B4ECB8EBADB /* Pods_SWTextAndImageButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWTextAndImageButton_Tests.framework; path = "Pods-SWTextAndImageButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5431D96F1DF018331CDC69E4C0A58FFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6558D90D56222D995D56A46F3A8D37CB /* Pods-SWTextAndImageButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWTextAndImageButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		662709084D145B8404D3596C0D926C3A /* Pods-SWTextAndImageButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWTextAndImageButton_Example-dummy.m"; sourceTree = "<group>"; };
-		6C60B0A381C187BC0D7731A141C5777C /* SWTextAndImageButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTextAndImageButton-prefix.pch"; sourceTree = "<group>"; };
 		6E1FBD50F9132E08F02F256D6563CF64 /* Pods-SWTextAndImageButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWTextAndImageButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		70FA2FD042AC72D9C00A926865A467F2 /* Pods-SWTextAndImageButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWTextAndImageButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8153CB4E74E0F420E0D88AD027506F8F /* Pods-SWTextAndImageButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWTextAndImageButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		836E7FC17579796AC9FC6F35C97D7968 /* Pods-SWTextAndImageButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWTextAndImageButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8467375DBB85B3EA239935569E5B14B3 /* Pods-SWTextAndImageButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWTextAndImageButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		88FEAD029BDF959E51A21EAF76AF70C8 /* Pods_SWTextAndImageButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWTextAndImageButton_Example.framework; path = "Pods-SWTextAndImageButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		898AEFCEA9E0BA81CCAE51BE4EE8932D /* SWTextAndImageButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTextAndImageButton-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97FF81806005F387D79FAB143BE0A3C9 /* SWTextAndImageButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWTextAndImageButton.modulemap; sourceTree = "<group>"; };
 		A5882C05757DCA7DD2ED23E4354D6F31 /* Pods-SWTextAndImageButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWTextAndImageButton_Example-resources.sh"; sourceTree = "<group>"; };
 		A9993A1E14B12AFC195D11174CC51AC1 /* Pods-SWTextAndImageButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWTextAndImageButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A9A6A5FD9D8BD1EFCEC34381D496732D /* Pods-SWTextAndImageButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SWTextAndImageButton_Example.modulemap"; sourceTree = "<group>"; };
-		AE0BBB54FF1B79DF965BA5B56434CBD8 /* SWTextAndImageButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SWTextAndImageButton.h; sourceTree = "<group>"; };
-		B03C685F9D1F8283006784C38DC88D4E /* SWTextAndImageButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SWTextAndImageButton.m; sourceTree = "<group>"; };
 		B7FC8158E466550F5A5E3EC513C03DA6 /* Pods-SWTextAndImageButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWTextAndImageButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		C1FFA492A64134C9FFD7420E5ED1ABF5 /* SWTextAndImageButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTextAndImageButton.xcconfig; sourceTree = "<group>"; };
 		E54CA21D7A55FBC3FF768AF08F272C8B /* Pods-SWTextAndImageButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWTextAndImageButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EAFD460E8589194ABF580D2A9E47BB2E /* Pods-SWTextAndImageButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWTextAndImageButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB41048602FF62D97C9AE12E769FD451 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE01ED09124531C394476AFA9AE6E5E /* SWTextAndImageButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTextAndImageButton-umbrella.h"; sourceTree = "<group>"; };
 		F00F809DBCCE51F43BDAD2718F62E413 /* Pods-SWTextAndImageButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SWTextAndImageButton_Tests.modulemap"; sourceTree = "<group>"; };
 		F72FF4168629577B1B578852C96A2B00 /* Pods-SWTextAndImageButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWTextAndImageButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F90A87FC61A87530ECF256B3F0575108 /* SWTextAndImageButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTextAndImageButton.m; path = SWTextAndImageButton/SWTextAndImageButton.m; sourceTree = "<group>"; };
 		FBACB7637109D6D5E69F8AB92E0428E5 /* Pods-SWTextAndImageButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWTextAndImageButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FD6F8F415D29EAC9D3F4C94CE9F5C878 /* SWTextAndImageButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTextAndImageButton.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		173F37424DC688505EB737967D443BA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5431D96F1DF018331CDC69E4C0A58FFC /* Info.plist */,
+				2F96AB149D5F34B031E5A9B001C76380 /* SWTextAndImageButton.modulemap */,
+				C1FFA492A64134C9FFD7420E5ED1ABF5 /* SWTextAndImageButton.xcconfig */,
+				27982BD0B11BB25E3D6DBDB91347C33A /* SWTextAndImageButton-dummy.m */,
+				3AEEF179E672FB85C803F73121474F56 /* SWTextAndImageButton-prefix.pch */,
+				EDE01ED09124531C394476AFA9AE6E5E /* SWTextAndImageButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWTextAndImageButton";
+			sourceTree = "<group>";
+		};
+		2231F7A1B947025B7EBF422CF03E07CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2D85751CCCE026F0576610007D7E1E7 /* SWTextAndImageButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		257EC1E95E72A5D6B384169F648B3FCC /* Pods-SWTextAndImageButton_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,16 +132,6 @@
 			);
 			name = "Pods-SWTextAndImageButton_Example";
 			path = "Target Support Files/Pods-SWTextAndImageButton_Example";
-			sourceTree = "<group>";
-		};
-		2E8D75FB1AAF8C8685497084EDCCEBB4 /* SWTextAndImageButton */ = {
-			isa = PBXGroup;
-			children = (
-				AE0BBB54FF1B79DF965BA5B56434CBD8 /* SWTextAndImageButton.h */,
-				B03C685F9D1F8283006784C38DC88D4E /* SWTextAndImageButton.m */,
-			);
-			name = SWTextAndImageButton;
-			path = SWTextAndImageButton;
 			sourceTree = "<group>";
 		};
 		3201983CD72C5D81D63D30DF31571E80 /* Pods-SWTextAndImageButton_Tests */ = {
@@ -150,25 +162,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7AF1CDC27B3A7EB0469A37D7BBCB686A /* SWTextAndImageButton */ = {
-			isa = PBXGroup;
-			children = (
-				D0C818706F89AE4A5044516A9C4AC359 /* Support Files */,
-				2E8D75FB1AAF8C8685497084EDCCEBB4 /* SWTextAndImageButton */,
-			);
-			name = SWTextAndImageButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CCCA371870B4440B30A64C3A8DF5E67D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2231F7A1B947025B7EBF422CF03E07CD /* Pods */,
 				37598158EAF6C60BCA8DEEC86A572B7D /* Products */,
 				E61E4CDFB8F3220067C0EE91A99539F7 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A2D85751CCCE026F0576610007D7E1E7 /* SWTextAndImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				2FD330F319211A2B914D3C3D47BFB065 /* SWTextAndImageButton.h */,
+				F90A87FC61A87530ECF256B3F0575108 /* SWTextAndImageButton.m */,
+				173F37424DC688505EB737967D443BA9 /* Support Files */,
+			);
+			name = SWTextAndImageButton;
+			path = SWTextAndImageButton;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -177,28 +190,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CCCA371870B4440B30A64C3A8DF5E67D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7AF1CDC27B3A7EB0469A37D7BBCB686A /* SWTextAndImageButton */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D0C818706F89AE4A5044516A9C4AC359 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				00CD6DC6734157832A6A4210DF88AC7D /* Info.plist */,
-				97FF81806005F387D79FAB143BE0A3C9 /* SWTextAndImageButton.modulemap */,
-				FD6F8F415D29EAC9D3F4C94CE9F5C878 /* SWTextAndImageButton.xcconfig */,
-				898AEFCEA9E0BA81CCAE51BE4EE8932D /* SWTextAndImageButton-dummy.m */,
-				6C60B0A381C187BC0D7731A141C5777C /* SWTextAndImageButton-prefix.pch */,
-				0416E9EFC3278BEC76B17BB159E50A97 /* SWTextAndImageButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SWTextAndImageButton";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -221,15 +212,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1054199C75785A6B7EDBFF2D7EA902C5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D31E29EF123D864B14DE3FBF7CB8CA4 /* SWTextAndImageButton-umbrella.h in Headers */,
-				7B29E77E24C7FEF0C1EE6EE2A359365E /* SWTextAndImageButton.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E464D2A51477ABEFA5EB88623D62BC6A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +228,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F86F5683DCB6EDD2369451EB48C1956F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792DD04BBC9A73D5744EA1F59C59C320 /* SWTextAndImageButton-umbrella.h in Headers */,
+				F8C3E0004C74ECBD2945CE432E392633 /* SWTextAndImageButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -253,9 +244,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5D1FC57737CA04DBA418BF396031C98 /* Build configuration list for PBXNativeTarget "SWTextAndImageButton" */;
 			buildPhases = (
-				8F11E82006542B8B73F29F4646D2C6C4 /* Sources */,
+				008DB46EB66E68C89AF29B7043D942A0 /* Sources */,
 				D89F66D4B89D956A811688C78C3E2DDF /* Frameworks */,
-				1054199C75785A6B7EDBFF2D7EA902C5 /* Headers */,
+				F86F5683DCB6EDD2369451EB48C1956F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -330,20 +321,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		008DB46EB66E68C89AF29B7043D942A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B423ECA78B52FEC40F1BEC51EC14C6FD /* SWTextAndImageButton-dummy.m in Sources */,
+				3C2DC9CCC2EE54C21B0A1A6E69A6AB44 /* SWTextAndImageButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42A434EEB68ADE70B96DD72AD3423988 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0C7EBDFADCAC12334EF232A1385B683D /* Pods-SWTextAndImageButton_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F11E82006542B8B73F29F4646D2C6C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98A274D01634B9C59931B3A726CEF048 /* SWTextAndImageButton-dummy.m in Sources */,
-				901B87131064CBEA930225458BF9D1E6 /* SWTextAndImageButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +560,7 @@
 		};
 		777A070F26CFA5A9A4ABF5DCAD7E1CF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD6F8F415D29EAC9D3F4C94CE9F5C878 /* SWTextAndImageButton.xcconfig */;
+			baseConfigurationReference = C1FFA492A64134C9FFD7420E5ED1ABF5 /* SWTextAndImageButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -601,7 +592,7 @@
 		};
 		946F208F867CFEA29A9A7CC097554029 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD6F8F415D29EAC9D3F4C94CE9F5C878 /* SWTextAndImageButton.xcconfig */;
+			baseConfigurationReference = C1FFA492A64134C9FFD7420E5ED1ABF5 /* SWTextAndImageButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
