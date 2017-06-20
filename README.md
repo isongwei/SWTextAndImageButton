@@ -35,7 +35,7 @@ xib
 
 ## Author
 
-i_songwei@163.com, i_songwei@163.com
+imsongwei@163.com
 
 ## License
 
