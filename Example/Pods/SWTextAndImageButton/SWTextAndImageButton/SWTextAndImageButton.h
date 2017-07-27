@@ -52,4 +52,10 @@ typedef NS_ENUM(NSUInteger, SWButtonType)
  */
 @property (nonatomic,assign) IBInspectable float contentDistance;
 
+/**
+ 图片圆角   ↔️
+ */
+@property (nonatomic,assign) IBInspectable float imageCornerRadius;
+
+
 @end

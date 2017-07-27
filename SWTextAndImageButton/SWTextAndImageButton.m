@@ -19,6 +19,16 @@ IB_DESIGNABLE
 #pragma mark - ===============upDataFrame===============
 -(void)upDateFrame{
     
+    
+    if (self.imageView) {
+        self.imageView.contentMode = UIViewContentModeScaleAspectFit;
+        if (_imageCornerRadius > 0) {
+            self.imageView.layer.cornerRadius = _imageCornerRadius;
+            self.imageView.layer.masksToBounds = YES;
+        }
+        
+    }
+    
 
     switch (_rectType) {
         case SWButtonTypeNone:
@@ -45,6 +55,7 @@ IB_DESIGNABLE
                     ss.right -= _padding;
                     self.contentEdgeInsets =ss;
                 } else{
+                    
                     CGRect frame2 = self.imageView.frame;
                     UIEdgeInsets ss = self.contentEdgeInsets;
                     ss.left += (self.frame.size.width-frame2.size.width-frame2.origin.x);
@@ -151,7 +162,7 @@ IB_DESIGNABLE
             break;
     }
 }
-#pragma mark - ===============SET===============
+#pragma mark - ===============set===============
 
 -(void)setRectType:(SWButtonType)rectType{
     _rectType = rectType;
@@ -184,13 +195,18 @@ IB_DESIGNABLE
 
 -(void)setImage:(UIImage *)image forState:(UIControlState)state{
     [super setImage:image forState:state];
-
+    
     [self upDateFrame];
 }
 
 -(void)setTitle:(NSString *)title forState:(UIControlState)state{
     [super setTitle:title forState:state];
+    
+    [self upDateFrame];
+}
 
+-(void)setImageCornerRadius:(float)imageCornerRadius{
+    _imageCornerRadius = imageCornerRadius;
     [self upDateFrame];
 }
 

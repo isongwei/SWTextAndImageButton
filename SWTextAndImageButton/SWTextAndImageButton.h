@@ -10,14 +10,6 @@
 
 
 
-
-
-/**
- 
-
- - SWButtonTypeNone: 111
- - SWButtonTypeTextLeft: 222
- */
 typedef NS_ENUM(NSUInteger, SWButtonType)
 {
     SWButtonTypeNone = 0,
@@ -59,5 +51,11 @@ typedef NS_ENUM(NSUInteger, SWButtonType)
  图片文字距离   ↔️
  */
 @property (nonatomic,assign) IBInspectable float contentDistance;
+
+/**
+ 图片圆角   ↔️
+ */
+@property (nonatomic,assign) IBInspectable float imageCornerRadius;
+
 
 @end
