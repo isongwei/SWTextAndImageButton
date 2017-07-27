@@ -22,9 +22,12 @@
     
     btn.imageView.backgroundColor = [UIColor greenColor];
     btn.titleLabel.backgroundColor = [UIColor blueColor];
+    
     btn.rectType =SWButtonTypeTextLeft;
-    btn.contentDistance = 10;
-    btn.padding = 20;
+    btn.contentDistance = 44;
+    btn.padding2 =0.1;
+    
+    
     
     [btn setTitle:@"测试" forState:(UIControlStateNormal)];
     [btn setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
