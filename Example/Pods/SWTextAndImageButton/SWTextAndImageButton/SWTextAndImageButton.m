@@ -15,18 +15,6 @@ IB_DESIGNABLE
 
 @implementation SWTextAndImageButton
 
-#pragma mark - ===============懒加载===============
-
-
-
--(void)setRectType:(SWButtonType)rectType{
-    _rectType = rectType;
-    [self upDateFrame];
-}
--(void)setRectTypeInt:(NSInteger)rectTypeInt{
-    _rectType = rectTypeInt;
-    [self upDateFrame];
-}
 
 #pragma mark - ===============upDataFrame===============
 -(void)upDateFrame{
@@ -164,6 +152,15 @@ IB_DESIGNABLE
     }
 }
 #pragma mark - ===============set===============
+
+-(void)setRectType:(SWButtonType)rectType{
+    _rectType = rectType;
+    [self upDateFrame];
+}
+-(void)setRectTypeInt:(NSInteger)rectTypeInt{
+    _rectType = rectTypeInt;
+    [self upDateFrame];
+}
 
 -(void)setPadding:(float)padding{
     NSAssert(padding >= 0, @"确保padding值非负");

@@ -10,14 +10,6 @@
 
 
 
-
-
-/**
- 
-
- - SWButtonTypeNone: 111
- - SWButtonTypeTextLeft: 222
- */
 typedef NS_ENUM(NSUInteger, SWButtonType)
 {
     SWButtonTypeNone = 0,

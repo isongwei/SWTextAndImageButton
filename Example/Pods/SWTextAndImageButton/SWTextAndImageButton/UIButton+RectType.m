@@ -1,25 +1,22 @@
 //
-//  SWTextAndImageButton.m
-//  swbutton
+//  UIButton+RectType.m
+//  Pods
 //
-//  Created by iSongWei on 2017/4/17.
-//  Copyright © 2017年 iSong. All rights reserved.
+//  Created by iSongWei on 2017/7/27.
+//
 //
 
-#import "SWTextAndImageButton.h"
+#import "UIButton+RectType.h"
+
+@implementation UIButton (RectType)
 
 
-
-
-IB_DESIGNABLE
-
-@implementation SWTextAndImageButton
-
+/*
 
 #pragma mark - ===============upDataFrame===============
 -(void)upDateFrame{
     
-
+    
     switch (_rectType) {
         case SWButtonTypeNone:
         {
@@ -151,7 +148,7 @@ IB_DESIGNABLE
             break;
     }
 }
-#pragma mark - ===============SET===============
+#pragma mark - ===============set===============
 
 -(void)setRectType:(SWButtonType)rectType{
     _rectType = rectType;
@@ -183,15 +180,16 @@ IB_DESIGNABLE
 }
 
 -(void)setImage:(UIImage *)image forState:(UIControlState)state{
-    [super setImage:image forState:state];
-
+    [self setImage:image forState:state];
+    
     [self upDateFrame];
 }
 
 -(void)setTitle:(NSString *)title forState:(UIControlState)state{
-    [super setTitle:title forState:state];
-
+    [self setTitle:title forState:state];
+    
     [self upDateFrame];
 }
+*/
 
 @end
